@@ -8,6 +8,6 @@ description: "rust box smart pointer — what, why, how"
 
 Here is a diagram showing how the stack points to the heap:
 
-![Rust Box Diagram]({{ site.baseurl }}/assets/images/rust-box.png)
+![Rust Box Diagram]({{ site.baseurl }}/assets/images/Box.png)
 
 A `Box<T>` allows you to store data on the heap.

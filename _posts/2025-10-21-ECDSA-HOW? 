@@ -1,0 +1,15 @@
+---
+layout: default
+title: "How is ECDSA used on internet? - HTTP"
+description: "A deep dive into how ECDSA is used on the internet, considering HTTP"
+---
+
+### Understanding the Box Pointer
+
+Here is a diagram showing how the stack points to the heap:
+
+![ECDSA concept]({{ site.baseurl }}/assets/images/ECDSA-HTTPS.png)
+
+Experience this first han when you are deploying any web app on Internet.
+When you get a domain you need to conffigure your DNS which should point to your resisding app server.
+App server should be `GOOD COP` how do we know this? By accessing its certificate!!.
