@@ -1,6 +1,7 @@
 title: Alchemist
-baseurl: ""
+baseurl: "/alchemist.github.io"
 url: "[https://siddheshzz.github.io](https://siddheshzz.github.io)"
+baseimageurl: ""
 
 markdown: kramdown
 highlighter: rouge
