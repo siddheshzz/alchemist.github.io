@@ -1,0 +1,10 @@
+---
+layout: post
+title: "My First Post"
+date: 2025-12-21
+---
+
+# Hello World!
+
+This is my first separate post. I don't need to write any HTML here, 
+just my thoughts. Jekyll will handle the rest!
