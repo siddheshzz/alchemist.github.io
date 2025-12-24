@@ -1,7 +1,9 @@
 ---
+
 layout: default
-title: "Why Local S3 Uploads are a "Triangle of Death" (And Why We Proxy)"
+title: 'Why Local S3 Uploads are a "Triangle of Death" (And Why We Proxy)'
 description: "The Localhost Docker S3 Upload Debacle"
+
 ---
 
 ## Why we proxy
@@ -23,7 +25,7 @@ We’ve all been there. You’re setting up MinIO in Docker to mimic AWS S3. You
 It sounds perfect. It’s A → B → C. But then, the console starts screaming: SignatureDoesNotMatch or Connection Refused.
 
 
-<span style="color:red"><em>Welcome to the Triangle of Death.</em></span>
+### Welcome to the Triangle of Death.
 1. The "Localhost" Identity Crisis
 
 The biggest lie in Docker development is that localhost means the same thing to everyone.
