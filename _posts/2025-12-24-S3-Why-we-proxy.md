@@ -1,9 +1,7 @@
 ---
-
 layout: default
-title: 'Why Local S3 Uploads are a "Triangle of Death" (And Why We Proxy)'
+title: "Why Local S3 Uploads are a Triangle of Death (And Why We Proxy)"
 description: "The Localhost Docker S3 Upload Debacle"
-
 ---
 
 ## Why we proxy
