@@ -21,8 +21,25 @@ We’ve all been there. You’re setting up MinIO in Docker to mimic AWS S3. You
 
 
 It sounds perfect. It’s A → B → C. But then, the console starts screaming: SignatureDoesNotMatch or Connection Refused.
+```
+┌─────────────┐
+│   Browser   │  localhost:3000
+│ (Frontend)  │
+└──────┬──────┘
+       │ Tries to upload to: http://localhost:9000
+       │ ❌ Can't reach MinIO in Docker!
+       │
+       ▼
+┌─────────────┐         ┌─────────────┐
+│   FastAPI   │────────▶│    MinIO    │
+│  Backend    │         │  Container  │
+│ (localhost) │  minio:9000 │   minio:9000  │
+└─────────────┘         └─────────────┘
+   Can talk!              Can't be reached
+                         by browser directly!
 
 
+```
 ### Welcome to the Triangle of Death.
 1. The "Localhost" Identity Crisis
 
