@@ -77,3 +77,8 @@ The Flow:
 Junior devs spend three days trying to "fix the signature." Senior devs spend 10 minutes realizing the network topology is the bottleneck and just move the data through the backend.
 In production, go direct to S3. In local Docker? Save your sanity—use a proxy.
 
+
+
+
+ref - https://fourtheorem.com/the-illustrated-guide-to-s3-pre-signed-urls/`
+https://medium.com/@codyalexanderraymond/solving-presigned-url-issues-in-dockerized-development-with-minio-internal-dns-61a8b7c7c0ce
