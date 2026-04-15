@@ -1,3 +1,10 @@
+---
+layout: default
+title: "A Deep Dive into asyncio Basics"
+description: "Mastering the 'Async-ing' Feeling learning how to actually cook with it"
+---
+
+
 # Mastering the "Async-ing" Feeling – A Deep Dive into asyncio Basics
 
 Welcome back, fellow code-alchemists! In **Chapter 1**, we learned why we need concurrency. Now, in **Chapter 2**, we’re learning how to actually cook with it. If you’re ready to stop writing code that runs at a snail’s pace, await for it... because things are about to get fast!
